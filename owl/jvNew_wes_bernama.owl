@@ -1,0 +1,1244 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.java.websemantik.com/"
+     xml:base="http://www.java.websemantik.com/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="http://www.java.websemantik.com/#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:java="http://java.semantikweb.com/#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://www.java.websemantik.com/">
+        <owl:versionIRI rdf:resource="http://www.java.websemantik.com/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.java.websemantik.com/DikembangkanBersama -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/DikembangkanBersama">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/DitemukanOleh -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/DitemukanOleh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/DitemukanTahun -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/DitemukanTahun">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Tahun"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/MemilikiKodeProgram -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/MemilikiKodeProgram">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Kode_Example"/>
+        <rdfs:label>MemilikiKodeProgram</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/MemilikiStatement -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/MemilikiStatement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/If_statement"/>
+        <rdfs:label>MemilikiIfStatement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/MemilikiVersi -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/MemilikiVersi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <rdfs:label>MemilikiVersi</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/Nama -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/Nama">
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/RzOCxsyh2dXIzmhH9EGv43 -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/RzOCxsyh2dXIzmhH9EGv43">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>mempunyai</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiBahasaPemrograman -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiBahasaPemrograman">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiBasicSyntax -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiBasicSyntax">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Basic_Syntax"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiEdisi -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiEdisi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Edisi"/>
+        <rdfs:label>memilikiEdisi</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiJenisVariabel -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiJenisVariabel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Variable"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiLangkahInstalasi -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiLangkahInstalasi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Installation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiLoopStatement -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiLoopStatement">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>memilikiLoopStatement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiPengertian -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiPengertian">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Description"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiSejarah -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiSejarah">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Description"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiSkrip -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiSkrip">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Skrip"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/memilikiTypeData -->
+
+    <owl:ObjectProperty rdf:about="http://www.java.websemantik.com/memilikiTypeData">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/DataType"/>
+        <rdfs:label>memilikiTypeData</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <rdfs:range rdf:resource="http://www.java.websemantik.com/Tahun"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.java.websemantik.com/Nama -->
+
+    <owl:DatatypeProperty rdf:about="http://www.java.websemantik.com/Nama">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.java.websemantik.com/deskripsi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.java.websemantik.com/deskripsi"/>
+    
+
+
+    <!-- http://www.java.websemantik.com/skrip -->
+
+    <owl:DatatypeProperty rdf:about="http://www.java.websemantik.com/skrip"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.java.websemantik.com/Attribut -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Attribut">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Object"/>
+        <rdfs:label>Attribut</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Basic_Syntax -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Basic_Syntax"/>
+    
+
+
+    <!-- http://www.java.websemantik.com/Boolean -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Boolean">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Primitive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Char -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Char">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Primitive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Control -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Control">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Basic_Syntax"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/DataType -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/DataType">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Basic_Syntax"/>
+        <rdfs:label>DataType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Description -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Description">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Edisi -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Edisi">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.java.websemantik.com/memilikiEdisi"/>
+                <owl:hasValue rdf:resource="http://www.java.websemantik.com/"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.java.websemantik.com/memilikiEdisi"/>
+                <owl:hasValue rdf:resource="http://www.java.websemantik.com/Java_Card_Edition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.java.websemantik.com/memilikiEdisi"/>
+                <owl:hasValue rdf:resource="http://www.java.websemantik.com/Java_FX_Edition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.java.websemantik.com/memilikiEdisi"/>
+                <owl:hasValue rdf:resource="http://www.java.websemantik.com/&apos;Standard_Edition_(SE)&apos;"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Edisi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/If_statement -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/If_statement">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Control"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Installation -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Installation">
+        <rdfs:label>Installation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Kode_Example -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Kode_Example"/>
+    
+
+
+    <!-- http://www.java.websemantik.com/Loop -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Loop">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Control"/>
+        <rdfs:label>Loop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Method -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Method">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Object"/>
+        <rdfs:label>Method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Numeric -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Numeric">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Primitive"/>
+        <rdfs:label>Numeric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Object -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Object">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Basic_Syntax"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Person -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Person"/>
+    
+
+
+    <!-- http://www.java.websemantik.com/Primitive -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Primitive">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/DataType"/>
+        <rdfs:label>Primitive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Programming_Language -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Programming_Language"/>
+    
+
+
+    <!-- http://www.java.websemantik.com/Reference -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Reference">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/DataType"/>
+        <rdfs:label>Reference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Skrip -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Skrip">
+        <rdfs:label>Skrip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Tahun -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Tahun"/>
+    
+
+
+    <!-- http://www.java.websemantik.com/Variable -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Variable">
+        <rdfs:subClassOf rdf:resource="http://www.java.websemantik.com/Basic_Syntax"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.java.websemantik.com/Versi -->
+
+    <owl:Class rdf:about="http://www.java.websemantik.com/Versi">
+        <rdfs:label>Versi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.java.websemantik.com/ -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Edisi"/>
+        <Nama>Enterprise Edition</Nama>
+        <Nama>Micro Edition</Nama>
+        <rdfs:label>Enterprise_Edition_(EE)</rdfs:label>
+        <rdfs:label>Micro_Edition_(ME)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/AbstractMethod -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/AbstractMethod">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Method"/>
+        <Nama>Abstract Method</Nama>
+        <rdfs:label>AbstractMethod</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Boolean -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Boolean">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Primitive"/>
+        <Nama>Boolean</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Byte -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Byte">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Numeric"/>
+        <Nama>Byte</Nama>
+        <rdfs:label>Byte</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Char -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Char">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Primitive"/>
+        <Nama>Char</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Chris_Warth -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Chris_Warth">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Person"/>
+        <Nama>Chris Warth</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Class_Variable -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Class_Variable">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Variable"/>
+        <Nama>Class Variable</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Comment -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Comment">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Control"/>
+        <Nama>Comment</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Do_While_loop -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Do_While_loop">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Loop"/>
+        <Nama>Do While Loop</Nama>
+        <rdfs:label>Do_While_loop</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Double -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Double">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Numeric"/>
+        <Nama>Double</Nama>
+        <rdfs:label>Double</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Eclipse_compiler -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Eclipse_compiler">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Installation"/>
+        <Nama>Eclipse Compiler</Nama>
+        <rdfs:label>Eclipse_compiler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Ed_Frank -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Ed_Frank">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Person"/>
+        <Nama>Ed Frank</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Float -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Float">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Numeric"/>
+        <Nama>Float</Nama>
+        <rdfs:label>Float</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/For_loop -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/For_loop">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Loop"/>
+        <Nama>For Loop</Nama>
+        <rdfs:label>For_loop</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/GNU_compiler -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/GNU_compiler">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Installation"/>
+        <Nama>GNU Compiler</Nama>
+        <rdfs:label>GNU_compiler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/If_Else_If_Ladder -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/If_Else_If_Ladder">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/If_statement"/>
+        <Nama>If Else If Ladder</Nama>
+        <rdfs:label>If_Else_If_Ladder</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/If_Statement -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/If_Statement">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/If_statement"/>
+        <Nama>If Statement</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Instance_Variable -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Instance_Variable">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Variable"/>
+        <Nama>Instance Variable</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Integer -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Integer">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Numeric"/>
+        <Nama>Integer</Nama>
+        <rdfs:label>Integer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/J2SE1.2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/J2SE1.2">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JSE1.2</Nama>
+        <rdfs:label>J2SE1.2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/J2SE1.3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/J2SE1.3">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JSE1.3</Nama>
+        <rdfs:label>J2SE1.3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/J2SE1.4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/J2SE1.4">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JSE1.4</Nama>
+        <rdfs:label>J2SE1.4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/J2SE5.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/J2SE5.0">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JSE5.0</Nama>
+        <rdfs:label>J2SE5.0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_10">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 10</Nama>
+        <rdfs:label>JAVA_SE_10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_11">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 11</Nama>
+        <rdfs:label>JAVA_SE_11</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_12">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 12</Nama>
+        <rdfs:label>JAVA_SE_12</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_13">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 13</Nama>
+        <rdfs:label>JAVA_SE_13</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_14">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 14</Nama>
+        <rdfs:label>JAVA_SE_14</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_15">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 15</Nama>
+        <rdfs:label>JAVA_SE_15</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_16">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 16</Nama>
+        <rdfs:label>JAVA_SE_16</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_17">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 17</Nama>
+        <rdfs:label>JAVA_SE_17</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_6">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 6</Nama>
+        <rdfs:label>JAVA_SE_6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_7">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 7</Nama>
+        <rdfs:label>JAVA_SE_7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_8">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 8</Nama>
+        <rdfs:label>JAVA_SE_8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JAVA_SE_9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JAVA_SE_9">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JAVA SE 9</Nama>
+        <rdfs:label>JAVA_SE_9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JDK -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JDK">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JDK</Nama>
+        <rdfs:label>JDK</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JDK1.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JDK1.0">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JDK 1.0</Nama>
+        <rdfs:label>JDK1.0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JDK1.1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JDK1.1">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JDK 1.1</Nama>
+        <rdfs:label>JDK1.1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JDK_beta -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JDK_beta">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Versi"/>
+        <Nama>JDK Beta</Nama>
+        <rdfs:label>JDK_beta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/JVM -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/JVM">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Installation"/>
+        <Nama>JVM</Nama>
+        <rdfs:label>JVM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/James_Gosling -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/James_Gosling">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Person"/>
+        <Nama>James Gosling</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Java -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Java">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Programming_Language"/>
+        <DikembangkanBersama rdf:resource="http://www.java.websemantik.com/Chris_Warth"/>
+        <DikembangkanBersama rdf:resource="http://www.java.websemantik.com/Ed_Frank"/>
+        <DikembangkanBersama rdf:resource="http://www.java.websemantik.com/Mike_Sheridan"/>
+        <DikembangkanBersama rdf:resource="http://www.java.websemantik.com/Patrick_Naughton"/>
+        <DitemukanOleh rdf:resource="http://www.java.websemantik.com/James_Gosling"/>
+        <MemilikiStatement rdf:resource="http://www.java.websemantik.com/If_Else_If_Ladder"/>
+        <MemilikiStatement rdf:resource="http://www.java.websemantik.com/If_Statement"/>
+        <MemilikiStatement rdf:resource="http://www.java.websemantik.com/&apos;If_Else_Statement&apos;"/>
+        <MemilikiStatement rdf:resource="http://www.java.websemantik.com/&apos;Nested_If_Statement&apos;"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/J2SE1.2"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/J2SE1.3"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/J2SE1.4"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/J2SE5.0"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_10"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_11"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_12"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_13"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_14"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_15"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_16"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_17"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_6"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_7"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_8"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JAVA_SE_9"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JDK1.0"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JDK1.1"/>
+        <MemilikiVersi rdf:resource="http://www.java.websemantik.com/JDK_beta"/>
+        <memilikiBahasaPemrograman rdf:resource="http://www.java.websemantik.com/Java"/>
+        <memilikiBasicSyntax rdf:resource="http://www.java.websemantik.com/AbstractMethod"/>
+        <memilikiBasicSyntax rdf:resource="http://www.java.websemantik.com/NonAbstractMethod"/>
+        <memilikiBasicSyntax rdf:resource="http://www.java.websemantik.com/NonVoidMethod"/>
+        <memilikiBasicSyntax rdf:resource="http://www.java.websemantik.com/VoidMethod"/>
+        <memilikiEdisi rdf:resource="http://www.java.websemantik.com/"/>
+        <memilikiEdisi rdf:resource="http://www.java.websemantik.com/Java_Card_Edition"/>
+        <memilikiEdisi rdf:resource="http://www.java.websemantik.com/Java_FX_Edition"/>
+        <memilikiEdisi rdf:resource="http://www.java.websemantik.com/&apos;Standard_Edition_(SE)&apos;"/>
+        <memilikiJenisVariabel rdf:resource="http://www.java.websemantik.com/Class_Variable"/>
+        <memilikiJenisVariabel rdf:resource="http://www.java.websemantik.com/Instance_Variable"/>
+        <memilikiJenisVariabel rdf:resource="http://www.java.websemantik.com/Local_Variable"/>
+        <memilikiLoopStatement rdf:resource="http://www.java.websemantik.com/Do_While_loop"/>
+        <memilikiLoopStatement rdf:resource="http://www.java.websemantik.com/For_loop"/>
+        <memilikiLoopStatement rdf:resource="http://www.java.websemantik.com/While_loop"/>
+        <memilikiTypeData rdf:resource="http://www.java.websemantik.com/Boolean"/>
+        <memilikiTypeData rdf:resource="http://www.java.websemantik.com/Byte"/>
+        <memilikiTypeData rdf:resource="http://www.java.websemantik.com/Char"/>
+        <memilikiTypeData rdf:resource="http://www.java.websemantik.com/Double"/>
+        <memilikiTypeData rdf:resource="http://www.java.websemantik.com/Float"/>
+        <memilikiTypeData rdf:resource="http://www.java.websemantik.com/Integer"/>
+        <memilikiTypeData rdf:resource="http://www.java.websemantik.com/Long"/>
+        <memilikiTypeData rdf:resource="http://www.java.websemantik.com/Short"/>
+        <memilikiTypeData rdf:resource="http://www.java.websemantik.com/String"/>
+        <Nama>Java</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Java_Card_Edition -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Java_Card_Edition">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Edisi"/>
+        <Nama>Java Card Edition</Nama>
+        <rdfs:label>Java_Card_Edition</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Java_FX_Edition -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Java_FX_Edition">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Edisi"/>
+        <Nama>Java FX Edition</Nama>
+        <rdfs:label>Java_FX_Edition</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Local_Variable -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Local_Variable">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Variable"/>
+        <Nama>Local Variable</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Long -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Long">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Numeric"/>
+        <Nama>Long</Nama>
+        <rdfs:label>Long</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Mike_Sheridan -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Mike_Sheridan">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Person"/>
+        <Nama>Mike Sheridan</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Nested_If_Statement -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Nested_If_Statement">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Control"/>
+        <Nama>Nested If Statement</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/NonAbstractMethod -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/NonAbstractMethod">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Method"/>
+        <Nama>Non Abstract Method</Nama>
+        <rdfs:label>NonAbstractMethod</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/NonVoidMethod -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/NonVoidMethod">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Method"/>
+        <Nama>Non Void Method</Nama>
+        <rdfs:label>NonVoidMethod</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Patrick_Naughton -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Patrick_Naughton">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Person"/>
+        <Nama>Patrick Naughton</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Pengertian -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Pengertian">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Description"/>
+        <deskripsi>Java adalah platform atau  merupakan satu set perangkat lunak komputer yang diakuisisi oleh Oracle Corporation, yang menyediakan sistem untuk mengembangkan aplikasi perangkat lunak dan menerapkan hal itu dalam sebuah cross-platform yang dapat digunakan di beberapa sistem operasi yang berbeda. Oleh karena itu, java merupakan bahasa pemrograman yang bisa diakses multi-device. Java bisa berjalan di mobile maupun web Karena fungsionalitasnya yang memungkinkan aplikasi java mampu berjalan di beberapa platform sistem operasi yang berbeda.</deskripsi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Personal_Java_Edition -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Personal_Java_Edition">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Edisi"/>
+        <Nama>Personal Java Edition</Nama>
+        <rdfs:label>Personal_Java_Edition</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Sejarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Sejarah">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Description"/>
+        <deskripsi>Saat ini java merupakan bahasa pemrograman yang paling populer digunakan, dan secara luas dimanfaatkan dalam pengembangan berbagai jenis perangkat lunak aplikasi ataupun aplikasi. Bahasa ini dibuat oleh James Gosling, Patrick Naughton, Chris Warth, Ed Frank, dan Mike Sheridan saat masih bergabung di Sun Microsystems. Sun Microsystem saat ini merupakan bagian dari Oracle yang dirilis pada tahun 1995. Bahasa pemrograman Java terlahir dari The Green Project, yang berjalan selama 18 bulan, dari awal tahun 1991 hingga musim panas 1992.</deskripsi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Short -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Short">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Numeric"/>
+        <Nama>Short</Nama>
+        <rdfs:label>Short</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Skrip_Impor_Scanner -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Skrip_Impor_Scanner">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Skrip"/>
+        <skrip>import java.util.Scanner;</skrip>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/String -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/String">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Reference"/>
+        <Nama>String</Nama>
+        <rdfs:label>String</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/Switch_Case_Statement -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/Switch_Case_Statement">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Control"/>
+        <Nama>Switch Case Statement</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/VoidMethod -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/VoidMethod">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Method"/>
+        <Nama>Void Method</Nama>
+        <rdfs:label>VoidMethod</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/While_loop -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/While_loop">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Loop"/>
+        <Nama>While Loop</Nama>
+        <rdfs:label>While_loop</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/break -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/break">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Basic_Syntax"/>
+        <Nama>Break</Nama>
+        <rdfs:label>break</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/continue -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/continue">
+        <Nama>Continue</Nama>
+        <rdfs:label>continue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/donwloadsdownloads -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/donwloadsdownloads">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Installation"/>
+        <Nama>Download Link</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/download_optionsdownload_options.xml -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/download_optionsdownload_options.xml">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Installation"/>
+        <Nama>Download Instruction</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/java_documentation.htm -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/java_documentation.htm">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Kode_Example"/>
+        <Nama>Java Documentation Link</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/javac_compiler -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/javac_compiler">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Installation"/>
+        <Nama>JavaC Compiler</Nama>
+        <rdfs:label>javac_compiler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/sjavac_compiler -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/sjavac_compiler">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Installation"/>
+        <Nama>JavaC Compiler</Nama>
+        <rdfs:label>javac_compiler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/&apos;If_Else_Statement&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/&apos;If_Else_Statement&apos;">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/If_statement"/>
+        <Nama>If Else Statement</Nama>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If_Else Statement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/&apos;Nested_If_Statement&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/&apos;Nested_If_Statement&apos;">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/If_statement"/>
+        <Nama>Nested If Statement</Nama>
+        <rdfs:label>Nested If Statement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/&apos;Standard_Edition_(SE)&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/&apos;Standard_Edition_(SE)&apos;">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Edisi"/>
+        <Nama>Standard Edition</Nama>
+        <rdfs:label>Standard_Edition_(SE)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.java.websemantik.com/1995 -->
+
+    <owl:NamedIndividual rdf:about="http://www.java.websemantik.com/1995">
+        <rdf:type rdf:resource="http://www.java.websemantik.com/Tahun"/>
+        <Nama rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</Nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.java.websemantik.com/Boolean">
+        <rdfs:label>Boolean</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.java.websemantik.com/Char">
+        <rdfs:label>Char</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.java.websemantik.com/Nama">
+        <rdfs:label>Nama</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

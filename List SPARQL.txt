@@ -1,0 +1,54 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX java: <http://www.java.websemantik.com/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ja: <http://jena.hpl.hp.com/2005/11/Assembler#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+#SELECT ?BahasaPemrograman ?Penemu
+#WHERE {?Programming_Language java:memilikiBahasaPemrograman ?BahasaPemrograman.
+#  ?BahasaPemrograman java:DitemukanOleh ?Penemu}
+
+#SELECT ?Bahasa ?DitemukanOleh
+#WHERE {{<http://www.java.websemantik.com/Java> <http://www.java.websemantik.com/Nama> ?Bahasa} {?Individual  <http://www.java.websemantik.com/DitemukanOleh>  ?Penemu . ?Penemu  <http://www.java.websemantik.com/Nama>  ?DitemukanOleh}}
+
+#SELECT ?Bahasa ?Penemu
+#WHERE {?Programming_Language java:memilikiBahasaPemrograman ?Bahasa . ?Bahasa  java:DitemukanOleh  ?Penemu}
+
+#SELECT ?Bahasapemrograman ?Penemu
+#WHERE{{<http://www.java.websemantik.com/Java> <http://www.java.websemantik.com/Nama> ?Object}  {?Individual <http://www.java.websemantik.com/DitemukanOleh> ?Penemu . ?Penemu <http://www.java.websemantik.com/Nama>  ?Nama }}
+
+#SELECT ?Bahasa ?DikembangkanBersama
+#WHERE{{<http://www.java.websemantik.com/Java> <http://www.java.websemantik.com/Nama> ?Bahasa} {?Individual  <http://www.java.websemantik.com/DikembangkanBersama> ?Pengembang . ?Pengembang  <http://www.java.websemantik.com/Nama>  ?DikembangkanBersama}}
+
+#SELECT ?Bahasa ?MemilikiEdisi
+#WHERE{{<http://www.java.websemantik.com/Java> <http://www.java.websemantik.com/Nama> ?Bahasa} {?Edisi  <http://www.java.websemantik.com/memilikiEdisi> ?HasilEdisi . ?HasilEdisi  <http://www.java.websemantik.com/Nama> ?MemilikiEdisi}}
+
+#SELECT *
+#WHERE { ?individual rdf:type ?type .
+#OPTIONAL { ?type rdfs:subClassOf ?class }
+#}
+#ORDER BY ?class
+
+#SELECT ?subject ?predicate ?object
+#WHERE {?subject ?predicate ?object}
+
+#SELECT ?object
+#WHERE { <http://www.java.websemantik.com/Java> <http://www.java.websemantik.com/DikembangkanBersama> ?object}
+
+#SELECT ?nama ?object
+#WHERE { ?nama java:DitemukanOleh ?object}
+
+#SELECT ?subject ?object
+#WHERE { ?subject java:DikembangkanBersama ?object}
+
+#SELECT DISTINCT ?class ?label ?description
+#WHERE {
+#  ?class a owl:Class.
+#  OPTIONAL { ?class rdfs:label ?label}
+#  OPTIONAL { ?class rdfs:comment ?description}
+#}
+
+#SELECT ?subject ?object
+#WHERE { ?subject
+#java:memilikiBasicSyntax ?object}
